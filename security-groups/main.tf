@@ -70,8 +70,16 @@ resource "aws_security_group" "ec2_jenkins_port_8080" {
     protocol    = "tcp"
   }
 
+  egress {
+    description = "Allow outgoing request"
+    from_port   = 0
+    to_port     = 0
+    protocol    = "-1"
+    cidr_blocks = ["0.0.0.0/0"]
+  }
+
   tags = {
-    Name = "Security Groups to allow SSH(22) and HTTP(80)"
+    Name = "Jenkins Port 8080 SG"
   }
 }
 
