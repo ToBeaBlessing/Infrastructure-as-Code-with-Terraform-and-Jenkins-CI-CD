@@ -8,9 +8,9 @@
 ![MySQL](https://img.shields.io/badge/mysql-%2300000f.svg?style=for-the-badge&logo=mysql&logoColor=white)
 
 **Enterprise-grade Infrastructure as Code implementation using Terraform modules with Jenkins-orchestrated CI/CD pipeline, featuring remote state management, modular AWS architecture with VPC, EC2, RDS, ALB, and automated Flask REST API deployment with MySQL database backend.**
-<img width="512" height="356" alt="Screenshot 2026-02-09 175243" src="https://github.com/user-attachments/assets/50da878b-7965-4460-9e3c-aeeaf551734f" />
 
 ## 🎯 Project Purpose
+<img width="512" height="356" alt="Screenshot 2026-02-09 175243" src="https://github.com/user-attachments/assets/50da878b-7965-4460-9e3c-aeeaf551734f" />
 
 This project demonstrates production-ready Infrastructure as Code practices through:
 
